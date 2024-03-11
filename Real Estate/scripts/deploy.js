@@ -23,7 +23,7 @@ async function main() {
     const transaction = await realEstate
       .connect(seller)
       .mint(
-        `https://ipfs.io/ipfs/QmQVcpsjrA6cr1iJjZAodYmwPekYgbnXGo4DFubJiLc2EB/${i}.json`
+        `https://ipfs.io/ipfs/QmQVcpsjrA6cr1iJjZAodYwmPekYgbnXGo4DFubJiLc2EB/${i}.json`
       );
     await transaction.wait();
   }
